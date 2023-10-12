@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main{
+    background-color: rgb(251, 251, 251);
+    height: 100vh;
+}
+.banner{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.601) ;
+    z-index: 90;
+    backdrop-filter: blur(30px);
+}
+.bancontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-direction: row;
+    top: 0;
+    
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 100%;
+}
+.logo{
+    background-image: url(Pictures/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-top: -15px;  
+    
+}
+.tex{
+    display: flex;
+}
+.tex a{
+    text-decoration: none;
+    font-family: Montserrat,sans-serif;
+    letter-spacing: .43px;
+    padding: 15px 20px;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    text-transform: uppercase;
+    display: inline;
+    color: #fdfdfd;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.38;
+    
+}
+.tex p{
+    margin-top: 10px;   
+    margin-right: 50px;  
+}
+.tex p a{
+    font-weight: 700;
+    font: bolder;
+    font-size: 20px;
+    
+    color: black;
+    margin-left: 10px;
+}
+.cover{
+    margin:auto;
+    
+    overflow-x: hidden;
+    
+    position: absolute;
+    transform: translate(-50% ,-50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    
+    transition: 0.5s;
+     backdrop-filter: blur(5px);
+     border-radius: 10px;
+}
+
+.Zwitavid{
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    
+    margin-top: 4.8%;
+    
+}
+.blureee{
+    display: flex;
+    flex-direction: column;
+    margin-top: -10%;
+}
+
+
+.cover h1{
+    font-family: Playfair Display,sans-serif;
+    color: #e3ca5e;
+    text-align: center;
+    font-size: 61px;
+    line-height: 1.08;
+    letter-spacing: .92px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.cover p{
+    text-align: center;
+    color:#fff9ed;
+    font-family: Montserrat,sans-serif; 
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.para1{
+    margin-bottom: 50px;
+    margin-top: 130px;
+    text-align: center;
+    color:#fff9ed;
+    font-family: Montserrat,sans-serif; 
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: 6px;
+}
+.cover a{
+    text-decoration: none;
+    color: #2e3330;
+    background-color: #d0aa47;
+    padding: 14.5px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Montserrat,sans-serif;
+    text-align: center;
+    letter-spacing: 2.82px;
+    transition: all .5s ease;
+    margin: auto;
+    border-radius: 5px;
+}
+.cover a:hover{
+    background-color:#2e3330 ;
+    color:#fff9ed;
+}
+.Sec2{
+    
+    width: 100vw;
+    background-color: rgb(251, 251, 251);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cards{
+    width: 200px;
+    height: 200px;
+    background-color: #e3ca5e;
+    margin: 10px;
+    
+    
+}
+.cardds{
+   height :140vh;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-evenly;
+   margin: 100px;
+}
+.Sec2 h1{
+    font-family:'BodoniFLF';
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 100;
+    color: #404040; 
+    margin: 1rem 0;
+    width: 50%;
+    
+}
+.fiftypercent{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Sec2 img{
+   width: 50%;
+   margin: 1rem 0;
+   border-radius: 10px;
+   transition: 0.2s;
+}
+.Sec2 img:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 50.5%;
+}
+.Sec2 font{
+    display: block;
+    color: #000;
+    font-weight: bolder;
+    font-family: 'Andale Mono';
+    line-height: 2em;
+    font-size: .95rem;
+    letter-spacing: -.5px;
+    width: 45%;
+    margin:1rem 0 1rem;
+   
+}
+.Sec2 p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    line-height: 2em;
+    font-size: .95rem;
+    width: 50%;
+    
+}
