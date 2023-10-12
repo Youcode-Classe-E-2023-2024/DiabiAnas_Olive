@@ -3,7 +3,9 @@
     padding: 0;
     
 }
-
+body{
+    overflow-x: hidden;
+}
 .main{
     background-color: rgb(251, 251, 251);
     height: 100vh;
@@ -84,7 +86,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     
     transition: 0.5s;
      backdrop-filter: blur(5px);
@@ -108,28 +110,34 @@
 
 .cover h1{
     font-family: Playfair Display,sans-serif;
-    color: #e3ca5e;
+    color: #deb80f;
     text-align: center;
     font-size: 61px;
     line-height: 1.08;
     letter-spacing: .92px;
     font-weight: 700;
     margin-bottom: 50px;
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
 }
 .cover p{
     text-align: center;
     color:#fff9ed;
     font-family: Montserrat,sans-serif; 
-    font-weight: 500;
+    
     margin-bottom: 50px;
+    
 }
-.para1{
+.cover .para2{
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+    font-weight: 500;
+}
+.cover .para1{
     margin-bottom: 50px;
     margin-top: 130px;
     text-align: center;
-    color:#fff9ed;
+    color:#292525;
     font-family: Montserrat,sans-serif; 
-    font-weight: 700;
+    font-weight: 800;
     font-size: 16px;
     text-transform: capitalize;
     letter-spacing: 6px;
