@@ -251,7 +251,7 @@ body{
 }
 .wal{
     height: 80vh;
-    background-image: url(/Pictures/maroc.jpg);
+    background-image: url(Pictures/maroc.jpg);
     background-position: center;
 }
 .wal .cover{
