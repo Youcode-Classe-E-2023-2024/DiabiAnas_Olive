@@ -280,6 +280,7 @@ body{
 .Sec2 .full{
     width: 80%;
     font-size: 50px;
+    
 }
 .Sec2 .ful{
     width: 50%;
@@ -350,8 +351,19 @@ body{
    display: flex;
    text-align: center;
    justify-content: center;
+}
+.buuut a{
+    padding: 15px 50px;
+    background-color: #d5ad5c;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.buuut a:hover{
+    background-color: #deb80f;
    
-   
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .heig font{
     display: block;
@@ -380,3 +392,6 @@ body{
         margin: 1rem 0 1rem;
         font-weight: 700;
     }
+.empty{
+    height: 120px;
+}
