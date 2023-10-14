@@ -11,8 +11,18 @@ body{
     height: 100vh;
     overflow: hidden;
 }
+center{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 video{
-    margin-top:23px;
+    min-height: 120%;
+    
 }
 .banner{
     position: fixed;
@@ -148,7 +158,7 @@ video{
 
 .cover .para1{
     margin-bottom: 50px;
-    margin-top: 130px;
+    
     text-align: center;
     color:#ffffff;
     font-family: Montserrat,sans-serif; 
