@@ -258,6 +258,7 @@ video{
     height: 100vh;
     background-image: url(Pictures/mar4.jpg);
     background-position: center;
+    background-repeat: no-repeat;
 }
 .wal .cover{
     margin:auto;
