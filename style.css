@@ -9,15 +9,15 @@ body {
 }
 
 .main {
-    background-color: #000000;
-    height: 100vh;
+    position: relative;
+    height: fit-content;
     overflow: hidden;
 }
 
 center {
     width: 100%;
-    height: 100%;
-
+    height: fit-content;
+    margin-top: 87px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -128,9 +128,9 @@ video {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     transition: 0.5s;
-    background-color: #00000064;
+    background-color: #0000004b;
     border-radius: 10px;
 }
 
@@ -148,7 +148,7 @@ video {
     display: flex;
     flex-direction: column;
 
-    width: fit-content;
+    
 
 }
 
@@ -157,11 +157,11 @@ video {
     font-family: Playfair Display, sans-serif;
     color: #deb80f;
     text-align: center;
-    font-size: 61px;
+    font-size: 4vw;
     line-height: 1.08;
     letter-spacing: .92px;
     font-weight: 700;
-    margin-bottom: 50px;
+    margin-bottom: 1vw;
     text-shadow: 3px 3px 4px rgb(0, 0, 0);
 }
 
@@ -170,23 +170,24 @@ video {
     color: #fff9ed;
     font-family: Montserrat, sans-serif;
 
-    margin-bottom: 50px;
+    margin-bottom: 1vw;
 
 }
 
 .cover .para2 {
     text-shadow: 3px 3px 4px rgb(0, 0, 0);
     font-weight: 500;
+    font-size: 0.8vw;
 }
 
 .cover .para1 {
-    margin-bottom: 50px;
+    margin-bottom: 1vw;
 
     text-align: center;
     color: #ffffff;
     font-family: Montserrat, sans-serif;
     font-weight: 800;
-    font-size: 50px;
+    font-size: 1.7vw;
     text-transform: capitalize;
     letter-spacing: 6px;
     text-shadow: 3px 3px 4px rgb(0, 0, 0);
@@ -197,14 +198,16 @@ video {
     color: #2e3330;
     background-color: #d0aa47;
     padding: 12px 30px;
-    font-size: 14px;
+    font-size: 0.8vw;
     font-weight: 700;
     font-family: Montserrat, sans-serif;
     text-align: center;
     letter-spacing: 2.82px;
     transition: all .3s ease;
     margin: auto;
+    margin-bottom: 10vw;
     border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .cover a:hover {
@@ -249,7 +252,7 @@ video {
 }
 
 .Sec2 img {
-    width: 50%;
+    width: 45%;
     margin: 1rem 0;
     border-radius: 10px;
     transition: 0.2s;
@@ -314,9 +317,10 @@ video {
 
 .wal {
     height: 100vh;
-    background-image: url(Pictures/mar4.jpg);
+    background-image: url(Pictures/818354.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .wal .cover {
@@ -336,7 +340,7 @@ video {
     width: 100%;
     height: 100vh;
     transition: 0.5s;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(0px);
     border-radius: 10px;
 }
 
@@ -428,23 +432,23 @@ video {
     justify-content: space-evenly;
     align-items: center;
 }
+.opace img{
+    width: 100%;
+}
+
 .products h1{
     
 }
 .prod{
-    width: 20%;
-    height: 90%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px;
+    width: 30%;
+    height:fit-content;
+    overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    transition: 0.3s;
-    background-image: url(Pictures/man.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    transition: 0.2s;
+    border-radius: 10px;
 }
 .prod:hover{
-    scale: 115%;
+    scale: 105%;
 }
 .heig {
     height: 100%;
@@ -590,11 +594,15 @@ video {
     .Sec2 img,
     .Sec2 p {
         width: 90%;
+        
+        
     }
 
     .Sec2 font {
         width: 85%;
-        font-size: 2vw;
+        font-size: 2.7vw;
+        font-weight: 700;
+        margin: 5vh 0;
     }
 
     .Sec2 .ful {
@@ -602,7 +610,7 @@ video {
     }
 
     .Sec2 p {
-        font-size: 3vw;
+        font-size: 2.3vw;
 
     }
 
@@ -619,21 +627,11 @@ video {
         justify-content: center;
     }
 
-    .cover .para1 {
-        font-size: 4vw;
-    }
+   .cover a{
+    margin: auto;
+   }
 
-    .cover h1 {
-        font-size: 7vw;
-    }
-
-    .cover .para2 {
-        font-size: 3vw;
-    }
-
-    .cover a {
-        font-size: 2vw;
-    }
+    
 
 }
 
