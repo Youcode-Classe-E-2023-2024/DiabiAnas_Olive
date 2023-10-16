@@ -6,9 +6,80 @@ body{
     padding: 0;
     margin: 0;
 }
-.book{
+.books{
+    
+    width: 80vw;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    flex-wrap: wrap;
+   
+
+}
+
+section{
+
+    background-image: url(Pictures/open-book-with-fairytale-scene.jpg);
+    background-attachment: fixed;
+   
+    background-size:100vw 130vh;
+    background-position: bottom;
+    min-height: 200vh;
+    background-repeat: no-repeat;
+    
+    
+}
+h1{
+  color: rgb(0, 0, 0);
+  width: 100%;
+  font-size: 100px;
+  padding: 50px;
+  margin-bottom: 40px;
+  background-color: rgba(240, 248, 255, 0.399);
+  
+  
+
+}
+.alll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.book img{
+    max-height:30vh;
+    margin: 40px 65px;
+    box-shadow: rgba(0, 0, 0, 0.573) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.413) 0px 4px 6px, rgba(0, 0, 0, 0.43) 0px 12px 13px, rgba(0, 0, 0, 0.396) 0px -3px 5px;
+    cursor: pointer
+    
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+}
+.book button{
+    color: rgb(0, 0, 0);
+    width: fit-content;
+    cursor: pointer;
+    font-weight: 900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(4px);
+    border: 3px solid black;
+    transition: 0.2s ease-in-out;
+    
+}
+.book button:hover{
+    scale: 106%;
+    background: transparent;
+    color: aliceblue;
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
 }

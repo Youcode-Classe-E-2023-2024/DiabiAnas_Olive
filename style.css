@@ -95,7 +95,6 @@ video {
 }
 
 .cont a:hover {
-    border-bottom: 2px solid rgb(244, 244, 244);
     color: #a0ca3f;
 }
 
@@ -145,6 +144,7 @@ video {
 }
 
 .blureee {
+    padding-top: 200px;
     display: flex;
     flex-direction: column;
 
@@ -215,13 +215,47 @@ video {
     color: #fff9ed;
     scale: 110%;
 }
+.bancontent i{
+    
+    color: white;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+.parent{
+    display:none ;
+}
+.parent:hover .menu{ 
+    display: flex;
 
+}
+.menu{
+    background-color: #404040;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+}
+.menu a{
+    padding: 10px 20px;
+}
 .Sec2 {
 
     width: 100vw;
     background-color: #FBF9F4;
     display: flex;
+    
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+
+}
+.Sec4 {
+
+    width: 100vw;
+    background-color: #FBF9F4;
+    display: flex;
+    
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
@@ -237,33 +271,49 @@ video {
     line-height: 70px;
     font-weight: 100;
     color: #404040;
-    margin: 1rem 0;
-    width: 50%;
+    margin: 4rem 0;
+    width: 100%;
+
+}
+.Sec4 h1 {
+    font-family: 'BodoniFLF';
+    font-size: 2.3vw;
+    line-height:3vw;
+    font-weight: 500;
+    color: #404040;
+    margin: 4rem 0;
+    width: 90%;
 
 }
 
-.fiftypercent {
-
-
+.fiddy {
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+
 }
 
 .Sec2 img {
-    width: 45%;
-    margin: 1rem 0;
+    width: 60%;
+    margin: 4rem 0;
     border-radius: 10px;
     transition: 0.2s;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
 }
+.Sec4 img {
+    width: 50%;
+    margin: 2rem 3rem;
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
-.Sec2 img:hover {
-
-    scale: 105%;
 }
+.Sec2 .wiiid{
+    width: 100%;
+}
+
 
 .Sec3 img:hover {
     scale: 105%;
@@ -272,14 +322,28 @@ video {
 .Sec2 font {
     display: block;
     color: #000;
-    font-weight: bolder;
+    font-weight:900;
     font-family: 'Andale Mono';
     line-height: 2em;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     letter-spacing: -.5px;
-    width: 45%;
+    width: fit-content;
     margin: 1rem 0 1rem;
-
+    border-bottom: 3px dashed black;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.357);
+}
+.Sec4 font {
+    display: block;
+    color: #000;
+    font-weight:900;
+    font-family: 'Andale Mono';
+    line-height: 2em;
+    font-size: 1rem;
+    letter-spacing: -.5px;
+    width: 90%;
+    margin: 1rem 0 1rem;
+    
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.357);
 }
 
 .Sec2 p {
@@ -287,7 +351,16 @@ video {
     font-weight: 600;
     line-height: 2.5em;
     font-size: 1.1rem;
-    width: 50%;
+    width: 100%;
+
+}
+
+.Sec4 p {
+    font-family: 'Andale Mono';
+    font-weight: 600;
+    line-height: 2.5em;
+    font-size: 1.1rem;
+    width: 90%;
 
 }
 
@@ -303,8 +376,19 @@ video {
 .drop a:hover {
     background-color: grey;
 }
+.menu a:hover {
+    background-color: grey;
+    
+    color: #a0ca3f;
+}
 
 .drop {
+    display: none;
+    position: absolute;
+    background-color: #404040;
+
+}
+.drop1 {
     display: none;
     position: absolute;
     background-color: #404040;
@@ -403,7 +487,7 @@ video {
 }
 
 .products {
-    height: 100vh;
+    min-height: 100vh;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -411,12 +495,16 @@ video {
     justify-content: space-evenly;
     
 }
+.products button{
+    margin-bottom: 80px;
+}
 
 .back {
     width: 100%;
-    height: 50vh;
-    background: url(Pictures/aceituna-en-flor.jpg) no-repeat fixed center;
+    height: fit-content;
+    background: url(Pictures/818354.jpg) no-repeat fixed center;
     background-size: cover;
+    margin-bottom: 200px;
 }
 
 .products{
@@ -426,30 +514,79 @@ video {
 .opace{
     width: 100%;
     height: 100%;
+    padding: 100px 0;
     background-color: #3a3a1a59;
-    backdrop-filter: blur(4px);
+    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 .opace img{
     width: 100%;
 }
 
 .products h1{
-    
+    padding: 100px;
+    color: #000;
+
+    font-family: 'Andale Mono';
+    line-height: 1.7em;
+    font-size: 2rem;
+    letter-spacing: -.5px;
+    margin: 1rem 0 1rem;
 }
 .prod{
-    width: 30%;
-    height:fit-content;
-    overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width:23%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
     transition: 0.2s;
+    background-repeat: no-repeat;
     border-radius: 10px;
 }
-.prod:hover{
+.prod img{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    overflow: hidden;
+    
+}
+.prod font{
+    
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+.prod button{
+    padding: 20px;
+    
+}
+.prod a{
+    background-color: #000;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: white;
+    border-radius: 40px;
+    font-family: 'Andale Mono';
+    font-weight: 500;
+    transition: 0.2s;
+    border: 2px solid black;
+}
+.prod a:hover{
+    
+    background-color: rgba(0, 0, 0, 0.475);
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.prod img:hover{
     scale: 105%;
 }
+
 .heig {
     height: 100%;
     width: 20%;
@@ -495,7 +632,7 @@ video {
 }
 
 .buuut a:hover {
-    background-color: #87b936c0;
+    background-color: #87b936a0;
     color: #fff9ed;
 
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -584,21 +721,25 @@ video {
     display: none;
 }
 
+
+
+
+
+
+
+
+
 @media(max-width:1024px) {
     .Sec2 h1 {
         font-size: 7vw;
         line-height: normal;
     }
-
-    .Sec2 h1,
-    .Sec2 img,
-    .Sec2 p {
-        width: 90%;
-        
-        
+    .bancontent i{
+        display: block;
     }
+    
 
-    .Sec2 font {
+    .Sec2 .fiddy font {
         width: 85%;
         font-size: 2.7vw;
         font-weight: 700;
@@ -609,14 +750,11 @@ video {
         width: 85%;
     }
 
-    .Sec2 p {
+    .Sec2 .fiddy p {
         font-size: 2.3vw;
 
     }
 
-    .idk {
-        display: none;
-    }
 
     .cont {
         margin: 0;
@@ -628,13 +766,39 @@ video {
     }
 
    .cover a{
-    margin: auto;
+    margin: 14px auto;
+    font-size: 12px;
    }
-
-    
+   .blureee h1{
+    font-size: 50px;
+   }
+   .blureee .para2{
+    font-size: 15px;
+   }
+   .blureee .para1{
+    font-size: 40px;
+   }
+ 
 
 }
+@media (max-width:1350px) {
 
+    .fiddy{
+        width: 90%;
+    
+    }
+    .fiddy img{
+        width: 80%;
+        margin: 80px 0;
+    }
+    .parent{
+        display: block;
+       
+    }
+    .cont{
+        display: none;
+    }
+}
 @media (max-width:1550px) {
     .Sec3 {
         justify-content: space-evenly;
@@ -715,7 +879,17 @@ video {
         margin: 200px 0 0;
         display: flex;
     }
-
+    .opace{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .prod{
+        width: 85%;
+        margin: 20px;
+    }
+    .back{
+        height:fit-content;
+    }
 }
 
 @media(max-width:1400px) {
