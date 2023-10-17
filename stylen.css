@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.taille{
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.wal1 {
+    height: 60vh;
+    background-image: url(Pictures/818354.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cover1 {
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    transition: 0.5s;
+    background-image: url(Pictures/coving.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+.cover1 h1 {
+    font-family: Playfair Display, sans-serif;
+    color: rgb(15, 14, 14);
+    text-align: center;
+    font-size: 4vw;
+    line-height: 1.08;
+    letter-spacing: .92px;
+    font-weight: 700;
+    margin-bottom: 1vw;
+    text-shadow: 3px 3px 4px rgb(107, 107, 107);
+}
+
+.cover1 p {
+    text-align: center;
+    color: #fff9ed;
+    font-family: Montserrat, sans-serif;
+
+    margin-bottom: 1vw;
+
+}
+.cover1 .para2 {
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 0.8vw;
+}
+
+.cover1 .para1 {
+    margin-bottom: 1vw;
+
+    text-align: center;
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    font-size: 1.7vw;
+    text-transform: capitalize;
+    letter-spacing: 6px;
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+}
+
+.cover1 a {
+    text-decoration: none;
+    color: #2e3330;
+    background-color: #d0aa47;
+    padding: 12px 30px;
+    font-size: 0.8vw;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    letter-spacing: 2.82px;
+    transition: all .3s ease;
+    margin: auto;
+    margin-bottom: 10vw;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cover1 a:hover {
+    background-color: #87b936c0;
+    color: #fff9ed;
+    scale: 110%;
+}
+.blureee1 {
+    
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+.tell{
+    font-weight: 700;
+    width: 50%;
+    font-family: Montserrat, sans-serif;
+    line-height: 30px;
+    margin-top: 2vw;
+}
+.heding{
+    font-family: 'Andale Mono';
+    font-weight: 900;
+    font-size:3.5vw;
+    margin: 50px 0;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+.heding1{
+    font-family: 'Andale Mono';
+    font-weight: 900;
+    font-size:3vw;
+    margin: 150px 100px;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+.tailleimg{
+    margin: 40px 0;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+.materiele{
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 3vw 0 10vw;
+
+    
+    
+
+}
+.matt{
+    
+    
+    width: 17vw;
+    
+    margin: 0 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    
+}
+.fix{
+    width: 17vw;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+}
+.matt img{
+    width: 17vw;
+    height: 17vw;
+    transition: 0.2s;   
+    cursor: pointer;
+    
+}
+.matt img:hover {
+    scale: 110%;
+}
+.matt button{
+    margin: 20px;
+    color: white;
+    background-color: #2e3330;
+    padding: 20px 34px;
+    border-radius: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.matt button:hover{
+    color: black;
+    background-color:#2e333038 ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    letter-spacing:0.3em;
+    margin-left: 50px;
+}
+
+

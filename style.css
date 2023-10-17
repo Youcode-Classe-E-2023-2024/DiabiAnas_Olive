@@ -547,10 +547,10 @@ video {
 
     .wal {
         height: 100vh;
-        background-image: url(Pictures/818354.jpg);
+        background-image: url(Pictures/covan.jpg);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 110% 120%;
     }
 
     .wal .cover {

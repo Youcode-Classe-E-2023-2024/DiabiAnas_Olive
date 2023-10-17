@@ -1,3 +1,8 @@
+/*
+!
+!livers Styling
+!
+*/
 *{
     padding: 0;
     margin: 0;
@@ -91,3 +96,21 @@ h1{
     color: aliceblue;
     text-shadow: 3px 3px 4px rgb(0, 0, 0);
 }
+
+
+
+/*
+!
+!taille style.
+!
+*/
+
+.taille{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
